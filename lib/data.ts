@@ -43,8 +43,7 @@ export const projects = [
     title: "Personal Portfolio Website",
     description:
       "A bespoke digital showcase built with React and Tailwind CSS, focusing on performance and micro-interactions.",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtBBcurjnHfd5cZtOoPKj_dW7FWyVODV2sU8nvzI-a1FXhtWjS1eQz3SJgxfDotk5IAn2ttqvcNp9Vhxsv_xMBSrf9V7iWwewRuz5IwZceDu33UQlQ2EU58pF7CAGy4kzv119Ql--CzNe6I9nuOMTLVFcKUdfx3b0QVLmCFBgGvB-YoM7kE-9JhKbdEtou7Sfz7wu3laZ99y9Z9v-37SEyNphDHE1ttcM8Ba2np6ngaAj3Ct4TDvPL-XQ",
+    image: "/projects/portfolio.jpg",
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "#",
     sourceUrl: "#",
@@ -53,9 +52,17 @@ export const projects = [
     title: "Student Management System",
     description:
       "A comprehensive Java-based application for educational institutions to manage student records and academic progress.",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLsXjKDES0B51OryCq8FF5tdBTq_50kspGaoSl618VeHcNbHCjNNhmCxWTCWMMHpAtdFdnoSrWU7ELq1q607fmIvfwQaGgM8e3L9nl_VAmSFGXExuMfyDj2WXsq8j1Fec97ESU1JsXg9E3xtrlgAyZOTcfRmJJdC0aBGK0jnVlYYPnZ0RZtJGmQYR8ivh5wR38VnFeltpO0N_Ee5KG-5Y0KLkesinJjYobWlQZmF6x3PMZqzV0H2SDubag",
+    image: "/projects/studentmanagment.jpg",
     tags: ["Java", "MySQL", "Swing GUI"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    title: "GreenTea Hub",
+    description:
+      "A backend-focused web application for managing product information and user data, with a relational database system for efficient data storage, retrieval, and consistency.",
+    image: "/projects/teashop.jpg",
+    tags: ["Node.js", "TypeScript", "JavaScript"],
     liveUrl: "#",
     sourceUrl: "#",
   },
