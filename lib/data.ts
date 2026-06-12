@@ -34,7 +34,7 @@ export const skills = [
   {
     category: "Tools",
     icon: "wrench",
-    items: ["Git", "GitHub", "VS Code", "Figma"],
+    items: ["Git", "GitHub", "VS Code", "Figma", "Cursor", "Claude", "ChatGPT"],
   },
 ] as const;
 
@@ -62,17 +62,70 @@ export const projects = [
 ] as const;
 
 export const achievements = [
+  // Awards
   {
-    type: "Competition",
-    title: "DIU Breakout Contest",
-    description:
-      "Ranked among top performers in a competitive programming and problem-solving challenge.",
+    group: "Awards",
+    type: "Award",
+    title: "Dean's List Award – Spring 2024",
+    description: "Recognized for academic excellence by Daffodil International University.",
   },
   {
-    type: "Certification",
-    title: "Presentation Skills Workshop",
-    description:
-      "Completed an intensive program focusing on effective communication and technical presentation.",
+    group: "Awards",
+    type: "Award",
+    title: "Dean's List Award – Fall 2024",
+    description: "Recognized for academic excellence by Daffodil International University.",
+  },
+  // Competitions & Workshops
+  {
+    group: "Competitions & Workshops",
+    type: "Competition",
+    title: "CodeTrap Programming Contest – Spring 2025",
+    description: "Competed in the CodeTrap programming contest at Daffodil International University.",
+  },
+  {
+    group: "Competitions & Workshops",
+    type: "Competition",
+    title: "CodeTrap Programming Contest – Fall 2025",
+    description: "Competed in the CodeTrap programming contest at Daffodil International University.",
+  },
+  {
+    group: "Competitions & Workshops",
+    type: "Competition",
+    title: "DIU Breakout Algorithm Programming Contest – Spring 2025",
+    description: "Participated in the algorithm programming contest at Daffodil International University.",
+  },
+  {
+    group: "Competitions & Workshops",
+    type: "Workshop",
+    title: "Unlock Your Presentation Skills & Enhance Design Concepts",
+    description: "Attended a professional development workshop at Daffodil International University, 2024.",
+  },
+] as const;
+
+export const certificates = [
+  {
+    title: "Machine Learning Algorithms",
+    issuer: "Simplilearn SkillUP",
+    date: "Mar 2026",
+    image: "/certs/Machine%20Learning%20Algorithms-1.png",
+  },
+  {
+    title: "Web Dev: HTML, CSS & JS",
+    issuer: "CodeSignal",
+    date: "Mar 2026",
+    image: "/certs/web_dev_html_css_basics-1.png",
+  },
+  {
+    title: "PHP Laravel Basics",
+    issuer: "CodeSignal",
+    date: "Apr 2026",
+    image: "/certs/PHP_LARAVEL-1.png",
+  },
+  {
+    title: "AWS Cloud Security Foundations",
+    issuer: "AWS Academy",
+    date: "Apr 2026",
+    image: "/certs/AWS_Academy_Graduate___Cloud_Security_Foundations-1.png",
   },
 ] as const;
 

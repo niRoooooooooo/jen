@@ -130,7 +130,7 @@ function ProjectCard({ project, index, inView }: ProjectCardProps) {
                 {tag}
               </span>
               {i < project.tags.length - 1 && (
-                <span className="text-secondary/30 text-label-sm" aria-hidden="true">
+                <span className="font-body text-secondary/30 text-label-sm" aria-hidden="true">
                   •
                 </span>
               )}

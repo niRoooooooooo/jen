@@ -14,8 +14,9 @@ import {
   SiGit,
   SiGithub,
   SiFigma,
+  SiOpenai,
 } from "react-icons/si";
-import { Coffee, Code2 as VsCodeIcon } from "lucide-react";
+import { Coffee, Code2 as VsCodeIcon, MousePointer2, Bot } from "lucide-react";
 import type { IconType } from "react-icons";
 import { skills } from "@/lib/data";
 import { fadeUp, staggerContainer, scaleIn } from "@/lib/motion";
@@ -32,7 +33,10 @@ const iconMap: Record<string, { icon: IconType; color: string }> = {
   "Git":        { icon: SiGit as IconType,       color: "#F05032" },
   "GitHub":     { icon: SiGithub as IconType,    color: "#24292e" },
   "VS Code":    { icon: VsCodeIcon as unknown as IconType, color: "#007ACC" },
-  "Figma":      { icon: SiFigma as IconType,     color: "#F24E1E" },
+  "Figma":      { icon: SiFigma as IconType,          color: "#F24E1E" },
+  "Cursor":     { icon: MousePointer2 as unknown as IconType, color: "#6B48FF" },
+  "Claude":     { icon: Bot as unknown as IconType,           color: "#CC785C" },
+  "ChatGPT":    { icon: SiOpenai as IconType,                 color: "#10A37F" },
 };
 
 const categoryIconMap = {

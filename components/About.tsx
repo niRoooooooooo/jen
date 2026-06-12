@@ -105,7 +105,7 @@ export default function About() {
                   <p className="font-display text-[clamp(14px,4.5vw,30px)] text-primary font-bold leading-tight">
                     {value}
                   </p>
-                  <p className="font-body text-[clamp(9px,2vw,13px)] text-secondary mt-0.5 sm:mt-1 leading-snug break-words">
+                  <p className="font-body text-[clamp(11px,2vw,13px)] text-secondary mt-0.5 sm:mt-1 leading-snug break-words">
                     {label}
                   </p>
                 </div>

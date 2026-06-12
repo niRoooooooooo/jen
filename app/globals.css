@@ -11,6 +11,10 @@
     @apply bg-surface text-on-surface font-body antialiased;
   }
 
+  p {
+    @apply text-justify;
+  }
+
   *:focus-visible {
     @apply outline-2 outline-offset-2 outline-primary rounded;
   }
